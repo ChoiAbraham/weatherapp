@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="jumbotron-fluid">
+        <div class="text-center bg">
+            <h1>{{ weatherData['city'] }}</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <p>{{ todayDate }}</p>
+        </div>
+        <div>
+            <p>{{ weatherData['description'] }}</p>
+            <p>La température est de {{ weatherData['temperature'] }}</p>
+            <p>min temp : {{ weatherData['minTemp'] }}</p>
+            <p>max temp : {{ weatherData['maxTemp'] }}</p>
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+{% endblock %}
