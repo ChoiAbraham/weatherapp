@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5ed4d22-ca6d-4bc6-97fc-1e4d05f873f9" name="Default Changelist" comment="" />
+    <list default="true" id="a5ed4d22-ca6d-4bc6-97fc-1e4d05f873f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/helper/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/helper/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/layout/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/pages/error.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/pages/homepage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/pages/app.page.errorapi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/weather.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weather.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flickr/Flickr.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flickr/Flickr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/Type/CityWeatherType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Type/CityWeatherType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/core/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/core/home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/error/error.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/error/error.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Actions/HomepageActionFunctionalTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Actions/HomepageActionFunctionalTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -128,9 +162,11 @@
       <path value="$PROJECT_DIR$/vendor/jms/serializer-bundle" />
       <path value="$PROJECT_DIR$/vendor/jms/metadata" />
       <path value="$PROJECT_DIR$/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1fM5O65jrqG4wpH8HsdQM46qhWN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -138,16 +174,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../phpflickr-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css/jam" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\weather\assets\css\jam" />
+      <recent name="C:\Projects\weather\assets\css" />
       <recent name="C:\Projects\weather\src\Flickr" />
       <recent name="C:\Projects\weather\src\Form\Handler" />
       <recent name="C:\Projects\weather\src\Repository" />
-      <recent name="C:\Projects\weather\src\Form\Type" />
-      <recent name="C:\Projects\weather" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -172,7 +210,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596015085609</updated>
-      <workItem from="1596015086986" duration="36945000" />
+      <workItem from="1596015086986" duration="38055000" />
+      <workItem from="1596095063296" duration="11630000" />
     </task>
     <servers />
   </component>
@@ -185,6 +224,10 @@
     </state>
     <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1596024959373" />
     <state x="718" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596061174215" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596107052886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596107052886" />
     <state x="624" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1596061169633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,10 +242,18 @@
     </state>
     <state x="591" y="228" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1596024913625" />
     <state x="739" y="288" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596060316703" />
-    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1596065807984">
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1596095063727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596095063727" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1596097361084">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596097361084" />
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1596103878242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596027623746" />
-    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596065807984" />
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596103878242" />
   </component>
 </project>

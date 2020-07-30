@@ -5,30 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Bienvenue !{% endblock %}</title>
     {% block stylesheets %}
+        {{ encore_entry_link_tags('app') }}
     {% endblock %}
 </head>
 <header>
-    <div class="jumbotron-fluid">
-        <div class="text-center bg">
-            <h1>WeatherApp</h1>
-        </div>
-    </div>
-    <div class="col-md-12">
-        {{ form_start(form, {'action': path('homepage_action'), 'method': 'POST'}) }}
-        {{ form_row(form.city) }}
-        <div class="d-flex justify-content-center">
-            <button type="submit" class="btn btn-primary text-center">soumettre</button>
-        </div>
-        {{ form_end(form) }}
-    </div>
+    <h2 class="pt-2">
+        WeatherApp</h2>
+    <nav>
+    </nav>
 </header>
 <body>
-{% block body %}
-{% endblock %}
+<div class="cover">
+    <h1 class="police">LE METEO PARTOUT OU VOUS ALLEZ</h1>
+    {{ form_start(form, {'action': path('homepage_action'), 'method': 'POST', 'attr': {'class': 'flex-form'}}) }}
+        {{ form_row(form.city, {'attr': {'type': 'search'}}) }}
+        <input type="submit" class="btn btn-primary text-center" value="Soumettre">
+    {{ form_end(form) }}
+    {% block body %}
+    {% endblock %}
+</div>
 {% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
 {% endblock %}
 <footer class="container-fluid d-flex justify-content-center align-items-center"">
-<span>Copyright @ 2020</span>
+<span>Copyright CHOI Abaham @ 2020</span>
 </footer>
 </body>
 </html>

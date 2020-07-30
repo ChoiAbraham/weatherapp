@@ -18,7 +18,7 @@ class HomepageActionFunctionalTest extends AbstractWebTestCase
     {
         $crawler = $this->client->request('GET', '/');
 
-        $form = $crawler->selectButton('soumettre')->form();
+        $form = $crawler->selectButton('Soumettre')->form();
 
 //        dd($form);
         $this->client->submit($form, [
@@ -33,7 +33,7 @@ class HomepageActionFunctionalTest extends AbstractWebTestCase
     {
         $crawler = $this->client->request('GET', '/');
 
-        $form = $crawler->selectButton('soumettre')->form();
+        $form = $crawler->selectButton('Soumettre')->form();
 
         $this->client->submit($form, [
             'city_weather[city]' => 'paris'

@@ -20,7 +20,7 @@ class CityWeatherType extends AbstractType
                 'city',
                 TextType::class,
                 [
-                    'label' => 'City',
+                    'label' => false,
                     'attr' => [
                         'class' => 'form-city',
                     ],

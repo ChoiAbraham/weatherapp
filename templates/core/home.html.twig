@@ -1,24 +1,22 @@
 {% extends 'base.html.twig' %}
 
-{% block body %}
-    <div class="jumbotron-fluid">
-        <div class="text-center bg">
-            <h1>{{ weatherData['city'] }}</h1>
-        </div>
-    </div>
+{% block stylesheets %}
+    {{ encore_entry_link_tags('app.page.homepage') }}
+{% endblock %}
 
+{% block body %}
     <div class="container">
         <div>
+            <p class="title police">{{ weatherData['city'] }}</p>
             <p>{{ todayDate }}</p>
-        </div>
-        <div>
-            <p>{{ weatherData['description'] }}</p>
-            <p>La température est de {{ weatherData['temperature'] }}</p>
-            <p>min temp : {{ weatherData['minTemp'] }}</p>
-            <p>max temp : {{ weatherData['maxTemp'] }}</p>
+            <h3>{{ weatherData['description'] }}</h3>
+            <p class="temp">{{ weatherData['temperature'] }}°C</p>
+            <p class="police">tempéature minimale: {{ weatherData['minTemp'] }}°C</p>
+            <p class="police">tempéature maximale: {{ weatherData['maxTemp'] }}°C</p>
         </div>
     </div>
 {% endblock %}
 
 {% block javascripts %}
+    {{ encore_entry_script_tags('app.page.homepage') }}
 {% endblock %}

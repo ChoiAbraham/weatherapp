@@ -39,7 +39,7 @@ class Flickr
         $this->container = $container;
     }
 
-    // get random public pictures from flickr filter by tag
+    // get random public pictures from flickr, filter by tag/input
     // Authentification not required
     public function getRandomPublicPicture($input = 'Toulouse weather')
     {
@@ -88,7 +88,7 @@ class Flickr
     // Get professionnal random pictures from Flickr
     // Authentification needed
     // TODO : Flickr API Authentification via OAuth
-    public function getProfessionnalPicture() {
+    public function getProfessionnalPictureFromFlickr() {
     }
 
     public function remove_utf8($text){
