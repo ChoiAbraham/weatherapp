@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5ed4d22-ca6d-4bc6-97fc-1e4d05f873f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/helper/_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/helper/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/layout/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/layout/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/pages/error.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/pages/homepage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/pages/app.page.errorapi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/weather.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weather.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Flickr/Flickr.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flickr/Flickr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/Type/CityWeatherType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Type/CityWeatherType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/core/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/core/home.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/error/error.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/error/error.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Actions/HomepageActionFunctionalTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Actions/HomepageActionFunctionalTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,16 +155,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css/jam" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\weather" />
       <recent name="C:\Projects\weather\assets\css\jam" />
       <recent name="C:\Projects\weather\assets\css" />
       <recent name="C:\Projects\weather\src\Flickr" />
       <recent name="C:\Projects\weather\src\Form\Handler" />
-      <recent name="C:\Projects\weather\src\Repository" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -211,7 +190,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596015085609</updated>
       <workItem from="1596015086986" duration="38055000" />
-      <workItem from="1596095063296" duration="11630000" />
+      <workItem from="1596095063296" duration="12320000" />
     </task>
     <servers />
   </component>
