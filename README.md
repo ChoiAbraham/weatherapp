@@ -20,13 +20,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 Install the dependencies on Composer
 
-Set the Database
+```
+$ composer install
+```
+Install Yarn
+```
+$ composer install
+```
+run yarn encore dev --watch
 
 ```
-$ php bin/console doctrine:database:create
+$ yarn watch
 ```
-
+Go to localhost
 ## Built With
 
 * [Bootstrap](https://getbootstrap.com/)
 * [Twig](https://twig.symfony.com/) - Dependency Management
+* Webpack Encore
