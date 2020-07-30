@@ -18,5 +18,9 @@
 {% endblock %}
 
 {% block javascripts %}
+    <script>
+
+        element = $('input[type="text"]').unwrap();
+    </script>
     {{ encore_entry_script_tags('app.page.homepage') }}
 {% endblock %}
